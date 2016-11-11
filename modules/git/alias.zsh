@@ -250,6 +250,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias gSf='git submodule foreach'
   alias gSi='git submodule init'
   alias gSI='git submodule update --init --recursive'
+  alias gsu='git submodule update --init --recursive'
   alias gSl='git submodule status'
   alias gSm='git-submodule-move'
   alias gSs='git submodule sync'
