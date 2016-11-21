@@ -39,3 +39,5 @@ bindkey -s "^[Oo" "/"
 setopt NO_NOMATCH 
 alias W='cd ~/work/wekapp'
 alias L='cd ~/devel/lamdu'
+
+export WEKA_SRC_VIEWER=weka_src_viewer
