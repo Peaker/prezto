@@ -47,6 +47,7 @@ path=(
   ~/.cask/bin
   ~/.cabal/bin
   ~/.local/bin
+  ~/work/wekapp/scripts
   $path
 )
 
