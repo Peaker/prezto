@@ -67,3 +67,7 @@ if (( $#commands[(i)lesspipe(|.sh)] )); then
 fi
 
 export u='@{u}'
+export m25=origin/REL-V2.5-master
+export s25=origin/REL-V2.5-stable
+export m=origin/master
+export s=origin/stable
