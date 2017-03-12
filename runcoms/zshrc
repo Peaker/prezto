@@ -42,3 +42,9 @@ alias L='cd ~/devel/lamdu'
 alias gch='gitter checkout'
 
 export WEKA_SRC_VIEWER=weka_src_viewer
+
+export m25=origin/REL-V2.5-master
+export s25=origin/REL-V2.5-stable
+export m=origin/master
+export s=origin/stable
+
