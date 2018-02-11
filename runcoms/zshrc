@@ -49,3 +49,5 @@ export s25=origin/REL-V2.5-stable
 export m=origin/master
 export s=origin/stable
 export sys=$(cat ~/.config/weka/default_sys)
+
+source ~/.zprezto/audible-feedback.zsh
