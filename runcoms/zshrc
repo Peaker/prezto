@@ -52,3 +52,6 @@ export sys=$(cat ~/.config/weka/default_sys)
 
 source ~/.zprezto/audible-feedback.zsh
 source ~/.profile
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
