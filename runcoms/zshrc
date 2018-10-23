@@ -38,6 +38,7 @@ bindkey -s "^[Oo" "/"
 
 setopt NO_NOMATCH 
 alias W='cd ~/work/wekapp'
+alias M='cd ~/work/wekapp/weka/submodules/mecca'
 alias L='cd ~/devel/lamdu'
 alias gch='gitter checkout'
 alias gsr='git-search-replace.py'
