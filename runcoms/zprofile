@@ -80,7 +80,6 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 export u='@{u}'
-export m25=origin/REL-V2.5-master
-export s25=origin/REL-V2.5-stable
+export v32='origin/v/3.2'
 export m=origin/master
 export s=origin/stable
