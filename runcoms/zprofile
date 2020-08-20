@@ -69,5 +69,21 @@ fi
 
 export u='@{u}'
 export v32='origin/v/3.2'
+export v33='origin/v/3.3'
+export v34='origin/v/3.4'
+export v35='origin/v/3.5'
+export v36='origin/v/3.6'
+export v37='origin/v/3.7'
+export v38='origin/v/3.8'
+export v39='origin/v/3.9'
+
+export fs37='origin/CI/3.7-filesystem'
+export fs38='origin/CI/3.8-filesystem'
+export fs39='origin/CI/3.9-filesystem'
+
 export m=origin/master
 export s=origin/stable
+export WEKA_SSH_BS=true
+export WEKA_PAGER="slit -f --always-term"
+
+export PATH="$HOME/go/bin:$HOME/.cargo/bin:$PATH"
