@@ -76,10 +76,23 @@ export v36='origin/v/3.6'
 export v37='origin/v/3.7'
 export v38='origin/v/3.8'
 export v39='origin/v/3.9'
+export v310='origin/v/3.10'
+export v311='origin/v/3.11'
+export v312='origin/v/3.12'
 
 export fs37='origin/CI/3.7-filesystem'
 export fs38='origin/CI/3.8-filesystem'
 export fs39='origin/CI/3.9-filesystem'
+export fs310='origin/CI/3.10-filesystem'
+export fs311='origin/CI/3.11-filesystem'
+export fs312='origin/CI/3.12-filesystem'
+
+export obs37='origin/CI/3.7-obs'
+export obs38='origin/CI/3.8-obs'
+export obs39='origin/CI/3.9-obs'
+export obs310='origin/CI/3.10-obs'
+export obs311='origin/CI/3.11-obs'
+export obs312='origin/CI/3.12-obs'
 
 export m=origin/master
 export s=origin/stable
