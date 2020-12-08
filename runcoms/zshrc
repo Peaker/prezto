@@ -1,3 +1,4 @@
+# zmodload zsh/zprof
 #
 # Executes commands at the start of an interactive session.
 #
@@ -46,6 +47,8 @@ alias gsr='git-search-replace.py'
 alias buildopt='t build --build-opts="--disable-asserts --release --compile-by=exe --boundscheck=off" --identity=$USER-opt'
 alias less="slit --always-term"
 
+alias home='unbuffer home-cli'
+
 export WEKA_SRC_VIEWER=weka_src_viewer
 
 export m25=origin/REL-V2.5-master
@@ -55,6 +58,7 @@ export s=origin/stable
 export sys=$(cat ~/.config/weka/default_sys)
 export WEKA_SSH_BS=true
 export bamboo_verify_upper_vers=yes
+export TEKA_PYENV_ON_REINSTALL=install
 
 source ~/.zprezto/audible-feedback.zsh
 source ~/.profile
@@ -64,3 +68,8 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 # pyenv virtualenvwrapper
 
 source /home/eyal/.config/broot/launcher/bash/br
+
+#eval "$(ssh-agent -s)"
+eval `keychain --eval`
+
+# zprof
